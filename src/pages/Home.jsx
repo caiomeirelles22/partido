@@ -10,53 +10,9 @@ import ContactImage from "../utils/img/contatoImage.jpg";
 function Home() {
   return (
     <div className="home-page">
-      <header className="h-100 min-vh-100 d-flex align-items-center text-light shadow">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-6 d-flex d-sm-block flex-column align-items-center">
-              <h2 className="mb-0 text-black fw-bold">
-                Bem Vindo ao Meu Perfil
-              </h2>
-              <h1 className="mb-4 text-black fw-bold text-center text-sm-start">
-                Eleitoral
-              </h1>
-              <MenuBtn />
-            </div>
-          </div>
-        </div>
-      </header>
+    
 
-      <div className="container my-5">
-        <div className="row">
-          <div className="col-lg-6 d-flex justify-content-center d-none d-lg-flex">
-            <img src={AboutImg} className="img-fluid w-50" alt="about img" />
-          </div>
-
-          <div className="col-lg-6 d-flex flex-column align-items-center justify-content-center">
-            <h2 className="fs-1 mb-5 text-uppercase">Sobre Mim</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Dignissimos ut odio dolore ullam libero sunt esse architecto, nam
-              enim odit soluta quo quia repellendus ducimus voluptate vel
-              expedita atque ex saepe quis vitae ab veniam corporis debitis?
-              Incidunt earum ea magni, sed molestiae nulla illum culpa. Deleniti
-              ut veniam repellat!
-            </p>
-
-            <p className="mb-5">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga,
-              repudiandae laudantium fugiat non minus magni nemo dolorem
-              distinctio aliquid aspernatur sequi commodi ad ab doloribus amet
-              cumque placeat deserunt corrupti?
-            </p>
-            <Link to="/about">
-              <button type="button" className="btn btn-outline-success btn-lg">
-                Mais Sobre Mim
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div>
+     
 
       <div className="menu-section py-5 text-light shadow">
         <div className="container d-flex flex-column align-items-center">
